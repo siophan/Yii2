@@ -45,5 +45,10 @@ return [
         ],
         */
     ],
+    'modules' => [
+        'home' => [
+            'class' => 'app\modules\home\HomeModule',
+        ],
+    ],
     'params' => $params,
 ];
